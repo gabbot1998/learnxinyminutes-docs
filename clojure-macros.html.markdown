@@ -32,10 +32,10 @@ You'll want to be familiar with Clojure. Make sure you understand everything in
 
 ;; You can eval the result of macroexpand directly:
 (eval (macroexpand '(my-first-macro)))
-; -> (\d \l \o \r \W \space \o \l \l \e \H)
+; -> (\d \l \r \o \W \space \o \l \l \e \H)
 
 ;; But you should use this more succinct, function-like syntax:
-(my-first-macro)  ; -> (\d \l \o \r \W \space \o \l \l \e \H)
+(my-first-macro)  ; -> (\d \l \r \o \W \space \o \l \l \e \H)
 
 ;; You can make things easier on yourself by using the more succinct quote syntax
 ;; to create lists in your macros:
